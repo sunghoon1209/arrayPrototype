@@ -130,3 +130,9 @@ const arr20 = [[1, 2], [3, 4], [5, 6]];
 arr20.forEach(item=>{
     item.forEach(item=>console.log(item));
 })
+
+function solution(num, n) {
+       
+    console.log(num%n?1:0);
+};
+solution(12,6)
